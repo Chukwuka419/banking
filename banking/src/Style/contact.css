@@ -1,0 +1,656 @@
+.contact_wrapper {
+    background-color: #112e42;
+    max-height: auto;
+    padding-bottom: 7rem;
+}
+
+.contact_wrapper form {
+    max-width: 70rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.input_box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.input_contact {
+    padding: 15px;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.input_contact input {
+    width: 1030px;
+    height: 40%;
+    padding: 1.5rem;
+    font-size: 1.6re;
+    color: #112e42;
+    background: transparent;
+    border-radius: .6rem;
+    color: #fff;
+}
+
+.input_contact ::placeholder {
+    color: #fff;
+}
+
+.textarea_contact {
+    padding: 15px;
+    padding-left: 50px;
+}
+
+.textarea_contact textarea {
+    width: 1000px;
+    resize: none;
+    position: relative;
+    height: 100%;
+    padding: 1.5rem;
+    font-size: 1rem;
+    color: #112e42;
+    background: transparent;
+    border-radius: .6rem;
+    color: #fff;
+}
+
+.textarea_contact ::placeholder {
+    color: #fff;
+}
+
+.btn_contact {
+    display: flex;
+    justify-content: center;
+}
+
+.btn_contact .btn {
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background: aqua;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    font-size: 25px;
+    color: #001629;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.btn_contact .btn:hover {
+    background: #001629;
+    color: #fff;
+}
+
+@media (max-width:780px) {
+    .contact_wrapper {
+        background-color: #112e42;
+        max-height: auto;
+        padding-bottom: 7rem;
+        padding-left: 50px;
+        padding-right: 70px;
+    }
+    .contact_wrapper form {
+        max-width: 70rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .input_box {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .input_contact {
+        padding: 15px;
+    }
+    .input_contact input {
+        width: 500px;
+        height: 40%;
+        padding: 1.5rem;
+        font-size: 1rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .input_contact ::placeholder {
+        color: #fff;
+    }
+    .textarea_contact {
+        padding: 15px;
+    }
+    .textarea_contact textarea {
+        width: 100%;
+        resize: none;
+        position: relative;
+        height: 100%;
+        padding: 1.5rem;
+        font-size: 1rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .textarea_contact ::placeholder {
+        color: #fff;
+    }
+    .btn_contact {
+        display: flex;
+        justify-content: center;
+    }
+    .btn_contact .btn {
+        align-items: center;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        background: aqua;
+        border: 2px solid aqua;
+        border-radius: 8px;
+        font-size: 25px;
+        color: #001629;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .btn_contact .btn:hover {
+        background: #001629;
+        color: #fff;
+    }
+}
+
+@media (max-width:620px) {
+    .contact_wrapper {
+        background-color: #112e42;
+        max-height: auto;
+        padding-bottom: 7rem;
+        padding-left: 50px;
+        padding-right: 70px;
+    }
+    .contact_wrapper form {
+        max-width: 70rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .input_box {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .input_contact {
+        padding: 15px;
+    }
+    .input_contact input {
+        width: 350px;
+        height: 40%;
+        padding: 1.5rem;
+        font-size: 1rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .input_contact ::placeholder {
+        color: #fff;
+    }
+    .textarea_contact {
+        padding: 15px;
+    }
+    .textarea_contact textarea {
+        width: 100%;
+        resize: none;
+        position: relative;
+        height: 100%;
+        padding: 1.5rem;
+        font-size: 1rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .textarea_contact ::placeholder {
+        color: #fff;
+    }
+    .btn_contact {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    .btn_contact .btn {
+        align-items: center;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        background: aqua;
+        border: 2px solid aqua;
+        border-radius: 8px;
+        font-size: 25px;
+        color: #001629;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .btn_contact .btn:hover {
+        background: #001629;
+        color: #fff;
+    }
+}
+
+@media (max-width:460px) {
+    .contact_wrapper {
+        background-color: #112e42;
+        max-height: auto;
+        padding-bottom: 7rem;
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+    .contact_wrapper form {
+        max-width: 70rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .input_box {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .input_contact {
+        padding: 15px;
+    }
+    .input_contact input {
+        width: 280px;
+        height: 40%;
+        padding: 1.5rem;
+        font-size: 1rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .input_contact ::placeholder {
+        color: #fff;
+    }
+    .textarea_contact {
+        padding: 15px;
+    }
+    .textarea_contact textarea {
+        width: 100%;
+        resize: none;
+        position: relative;
+        height: 100%;
+        padding: 1.5rem;
+        font-size: 1rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .textarea_contact ::placeholder {
+        color: #fff;
+    }
+    .btn_contact {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 2px;
+    }
+    .btn_contact .btn {
+        align-items: center;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        background: aqua;
+        border: 2px solid aqua;
+        border-radius: 8px;
+        font-size: 25px;
+        color: #001629;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .btn_contact .btn:hover {
+        background: #001629;
+        color: #fff;
+    }
+}
+
+@media (max-width:420px) {
+    .contact_wrapper {
+        background-color: #112e42;
+        max-height: auto;
+        padding-bottom: 7rem;
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+    .contact_wrapper form {
+        max-width: 70rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .input_box {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .input_contact {
+        padding: 15px;
+    }
+    .input_contact input {
+        width: 230px;
+        height: 40%;
+        padding: 1.5rem;
+        font-size: 1rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .input_contact ::placeholder {
+        color: #fff;
+    }
+    .textarea_contact {
+        padding: 15px;
+    }
+    .textarea_contact textarea {
+        width: 100%;
+        resize: none;
+        position: relative;
+        height: 100%;
+        padding: 1.5rem;
+        font-size: 1rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .textarea_contact ::placeholder {
+        color: #fff;
+    }
+    .btn_contact {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: px;
+    }
+    .btn_contact .btn {
+        align-items: center;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        background: aqua;
+        border: 2px solid aqua;
+        border-radius: 8px;
+        font-size: 25px;
+        color: #001629;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .btn_contact .btn:hover {
+        background: #001629;
+        color: #fff;
+    }
+}
+
+@media (max-width:412px) {
+    .contact_wrapper {
+        background-color: #112e42;
+        max-height: auto;
+        padding-bottom: 7rem;
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+    .contact_wrapper form {
+        max-width: 70rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .input_box {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .input_contact {
+        padding: 15px;
+    }
+    .input_contact input {
+        width: 240px;
+        height: 40%;
+        padding: 1.5rem;
+        font-size: 1rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .input_contact ::placeholder {
+        color: #fff;
+    }
+    .textarea_contact {
+        padding: 15px;
+    }
+    .textarea_contact textarea {
+        width: 100%;
+        resize: none;
+        position: relative;
+        height: 100%;
+        padding: 1.5rem;
+        font-size: 1rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .textarea_contact ::placeholder {
+        color: #fff;
+    }
+    .btn_contact {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 5spx;
+    }
+    .btn_contact .btn {
+        align-items: center;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        background: aqua;
+        border: 2px solid aqua;
+        border-radius: 8px;
+        font-size: 25px;
+        color: #001629;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .btn_contact .btn:hover {
+        background: #001629;
+        color: #fff;
+    }
+}
+
+@media (max-width:400px) {
+    .contact_wrapper {
+        background-color: #112e42;
+        max-height: auto;
+        padding-bottom: 7rem;
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+    .contact_wrapper form {
+        max-width: 70rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .input_box {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .input_contact {
+        padding: 15px;
+    }
+    .input_contact input {
+        width: 248px;
+        height: 40%;
+        padding: 1.5rem;
+        font-size: 1rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .input_contact ::placeholder {
+        color: #fff;
+    }
+    .textarea_contact {
+        padding: 15px;
+    }
+    .textarea_contact textarea {
+        width: 120%;
+        resize: none;
+        position: relative;
+        height: 100%;
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .textarea_contact ::placeholder {
+        color: #fff;
+    }
+    .btn_contact {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 15px;
+    }
+    .btn_contact .btn {
+        align-items: center;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        background: aqua;
+        border: 2px solid aqua;
+        border-radius: 8px;
+        font-size: 25px;
+        color: #001629;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .btn_contact .btn:hover {
+        background: #001629;
+        color: #fff;
+    }
+}
+
+@media (max-width:390px) {
+    .contact_wrapper {
+        background-color: #112e42;
+        max-height: auto;
+        padding-bottom: 7rem;
+        padding-right: 10px;
+        padding-left: 15px;
+    }
+    .contact_wrapper form {
+        max-width: 70rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .input_box {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .input_contact {
+        padding: 15px;
+    }
+    .input_contact input {
+        width: 230px;
+        height: 40%;
+        padding: 1.5rem;
+        font-size: 1rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .input_contact ::placeholder {
+        color: #fff;
+    }
+    .textarea_contact {
+        padding: 15px;
+    }
+    .textarea_contact textarea {
+        width: 100%;
+        resize: none;
+        position: relative;
+        height: 100%;
+        padding: 1.5rem;
+        font-size: 1rem;
+        color: #112e42;
+        background: transparent;
+        border-radius: .6rem;
+        color: #fff;
+    }
+    .textarea_contact ::placeholder {
+        color: #fff;
+    }
+    .btn_contact {
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 1px;
+    }
+    .btn_contact .btn {
+        align-items: center;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        background: aqua;
+        border: 2px solid aqua;
+        border-radius: 8px;
+        font-size: 25px;
+        color: #001629;
+        text-decoration: none;
+        letter-spacing: 1px;
+        font-weight: 600;
+    }
+    .btn_contact .btn:hover {
+        background: #001629;
+        color: #fff;
+    }
+}

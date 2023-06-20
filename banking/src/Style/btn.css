@@ -1,0 +1,32 @@
+.btn {
+    width: 345px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.btn a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: aqua;
+    border: 2px solid aqua;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #001629;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.btn a:nth-child(2) {
+    background: transparent;
+    color: aqua;
+}
+
+.btn a:hover:nth-child(2) {
+    background: black;
+}

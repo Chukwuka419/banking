@@ -17,6 +17,10 @@
     flex-wrap: wrap;
 }
 
+.heading {
+    font-size: 3rem;
+}
+
 .input_contact {
     padding: 15px;
 }
@@ -500,6 +504,9 @@ label {
         padding-bottom: 7rem;
         padding-left: 10px;
         padding-right: 30px;
+    }
+    .heading {
+        font-size: 1.5rem;
     }
     .contact_wrapper form {
         max-width: 70rem;

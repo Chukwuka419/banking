@@ -216,17 +216,17 @@
     }
     .inner h1 {
         font-size: 2rem;
-        padding-top: 20px;
-        padding-bottom: 30px;
+        padding-top: 5px;
+        padding-bottom: 10px;
     }
     .inner h2 {
         font-size: 1.5rem;
-        padding-top: 20px;
+        padding-top: 10px;
         padding-bottom: 20px;
     }
     .inner p {
-        font-size: 1rem;
-        padding-top: 20px;
+        font-size: 15px;
+        padding-top: 10px;
         padding-bottom: 40px;
         line-height: 1.5;
     }

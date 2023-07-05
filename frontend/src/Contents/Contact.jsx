@@ -17,13 +17,7 @@ const Contact = () => {
     e.target.reset();
 
 
-//     emailjs
-//     .sendFrom(
-// "service_ey9o75u",
-// "template_r0i12hi",
-// e.target
 
-//     )
 
     
   }

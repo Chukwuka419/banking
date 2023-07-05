@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "../Style/navbar.css"
 
 
 
-  const Navbar = () => {
+const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [menuActive, setMenuActive] = useState(true);
 
@@ -20,25 +21,17 @@ import "../Style/navbar.css"
           <h1>StanleyCool</h1>
         </div>
         <div className={`nav_menu ${menuOpen ? "open" : ""} `}>
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-           
-            <li>
-              <a href="#">Education</a>
-            </li>
-           
-            <li>
-              <a href="../">Portfollo</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
+
+          <Router>
+            <Routes>
+              <Route path="/" element={<li>
+                <a href="#">Home</a>
+              </li>} />
+
+            </Routes>
+
+          </Router>
+
         </div>
 
         {menuActive ? (
